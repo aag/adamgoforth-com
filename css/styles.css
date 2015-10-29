@@ -1,0 +1,62 @@
+body {
+    padding-top: 2rem;
+    text-align: center;
+}
+.name {
+    margin-bottom: 0;
+}
+.photo {
+    -moz-box-sizing: border-box;
+    border: .3em solid #fff;
+    border-radius: .3em .3em .3em .3em;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    max-width: 100%;
+    max-height: 250px;
+    margin-bottom: 2rem;
+}
+.link-holder {
+    margin-bottom: 1rem;
+}
+.link-icon {
+    margin-right: 1rem;
+    position: relative;
+    top: 0.7rem;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+    body {
+        padding-top: 3rem;
+    }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+    body {
+        padding-top: 4rem;
+        text-align: left;
+    }
+
+    .text-holder {
+        /*padding-top: 1.5rem;*/
+        padding-left: 1rem;
+    }
+
+    .photo {
+        float: right;
+        max-height: 100%;
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .text-holder {
+        padding-top: 1.5rem;
+    }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
