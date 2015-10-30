@@ -4,7 +4,12 @@ var gulp = require('gulp'),
     concat = require('gulp-concat');
 
 gulp.task('default', function() {
-    gulp.src('css/*.css')
+    gulp.src([
+            'css/normalize.css',
+            'css/skeleton.css',
+            'css/styles.css'
+            ],
+        {'base': 'css/'})
         .pipe(autoprefixer({
             browsers: ['last 2 versions', 'ie 9'],
             cascade: false
