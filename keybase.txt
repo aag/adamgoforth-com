@@ -1,0 +1,52 @@
+https://keybase.io/aag
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://adamgoforth.com
+  * I am aag (https://keybase.io/aag) on keybase.
+  * I have a public key ASDFJONQI0NNH7hVnIce7zgnh-TopjUZ-3aHtuMbNRD4qAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120c524e35023434d1fb8559c871eef382787e4e8a63519fb7687b6e31b3510f8a80a",
+            "host": "keybase.io",
+            "kid": "0120c524e35023434d1fb8559c871eef382787e4e8a63519fb7687b6e31b3510f8a80a",
+            "uid": "cdc93f57b82c7d1cec5f75b426889c19",
+            "username": "aag"
+        },
+        "service": {
+            "hostname": "adamgoforth.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1467063694,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1467063678,
+        "hash": "dbad749be8d18e447fe7fa88d5a8ff787f52cba734afb3ef2cc951e6d5a30126949f443de0679ae56305cc5e4b24d979cf8cdeae2d86289e1166c9656acc36b2",
+        "seqno": 501329
+    },
+    "prev": "14464dcd835e623ea4bc503e1c44e5a51328089c928a7a46645f529d66618e4e",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgxSTjUCNDTR+4VZyHHu84J4fk6KY1Gft2h7bjGzUQ+KgKp3BheWxvYWTFAvF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYzUyNGUzNTAyMzQzNGQxZmI4NTU5Yzg3MWVlZjM4Mjc4N2U0ZThhNjM1MTlmYjc2ODdiNmUzMWIzNTEwZjhhODBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYzUyNGUzNTAyMzQzNGQxZmI4NTU5Yzg3MWVlZjM4Mjc4N2U0ZThhNjM1MTlmYjc2ODdiNmUzMWIzNTEwZjhhODBhIiwidWlkIjoiY2RjOTNmNTdiODJjN2QxY2VjNWY3NWI0MjY4ODljMTkiLCJ1c2VybmFtZSI6ImFhZyJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYWRhbWdvZm9ydGguY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNiJ9LCJjdGltZSI6MTQ2NzA2MzY5NCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDY3MDYzNjc4LCJoYXNoIjoiZGJhZDc0OWJlOGQxOGU0NDdmZTdmYTg4ZDVhOGZmNzg3ZjUyY2JhNzM0YWZiM2VmMmNjOTUxZTZkNWEzMDEyNjk0OWY0NDNkZTA2NzlhZTU2MzA1Y2M1ZTRiMjRkOTc5Y2Y4Y2RlYWUyZDg2Mjg5ZTExNjZjOTY1NmFjYzM2YjIiLCJzZXFubyI6NTAxMzI5fSwicHJldiI6IjE0NDY0ZGNkODM1ZTYyM2VhNGJjNTAzZTFjNDRlNWE1MTMyODA4OWM5MjhhN2E0NjY0NWY1MjlkNjY2MThlNGUiLCJzZXFubyI6OSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAYUVM6/h4DXFjTH3Ar72kjquTNNcNNEnSh8loJYPf8sou//ejeaFHvthDjcY00BsKD5xf4kOI80tA7zs74EF8NqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgLI9aQvRvajR/7WjglFeiywMFBclP16XPahLv4MC1MOSjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aag
+
