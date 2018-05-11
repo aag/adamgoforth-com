@@ -1,12 +1,16 @@
 body {
     padding-top: 2rem;
     padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
-.name {
-    margin-bottom: 0;
-    font-size: 4rem;
+
+.container {
+    display: flex;
+    flex-direction: column;
 }
+
 .photo {
     -moz-box-sizing: border-box;
     border: .3em solid #fff;
@@ -16,9 +20,25 @@ body {
     max-height: 250px;
     margin-bottom: 2rem;
 }
-.link-holder {
-    margin-bottom: 1rem;
+
+.name {
+    margin-bottom: 0;
+    font-size: 4rem;
 }
+
+.title,
+.link-label {
+    font-size: 2.4rem;
+}
+
+.links {
+    list-style: none;
+}
+
+.link-holder {
+    margin-bottom: 0.5rem;
+}
+
 .link-icon {
     margin-right: 1rem;
     position: relative;
@@ -40,24 +60,37 @@ body {
     }
 
     .text-holder {
-        /*padding-top: 1.5rem;*/
-        padding-left: 1rem;
+        padding-left: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .name {
+        font-size: 3.5rem;
+    }
+
+    .title {
+        font-size: 2.2rem;
+    }
+
+    .container {
+        flex-direction: row;
     }
 
     .photo {
-        float: right;
         max-height: 100%;
     }
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-    .text-holder {
-        padding-top: 1.5rem;
-    }
-
     .name {
         font-size: 5rem;
+    }
+
+    .title {
+        font-size: 2.4rem;
     }
 }
 
