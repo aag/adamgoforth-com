@@ -9,7 +9,6 @@ gulp.task('default', ['css']);
 gulp.task('css', function() {
     return gulp.src([
             'css/normalize.css',
-            'css/skeleton.css',
             'css/styles.css'
             ],
         {'base': 'css/'})

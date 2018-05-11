@@ -1,14 +1,49 @@
+html { 
+    font-size: 62.5%;
+} 
+
 body {
     padding-top: 2rem;
     padding-bottom: 2rem;
     display: flex;
     justify-content: center;
     text-align: center;
+
+    font-family: Raleway, HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #222;
+}
+
+ol,
+ul {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+a {
+    color: #1eaedb;
+}
+
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+h1 {
+    line-height: 1.2;
+}
+
+h2 {
+    line-height: 1.35;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+
+    max-width: 600px;
 }
 
 .photo {
@@ -39,6 +74,10 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.link-holder:last-child {
+    margin-bottom: 0;
+}
+
 .link-icon {
     margin-right: 1rem;
     position: relative;
@@ -50,6 +89,10 @@ body {
     body {
         padding-top: 3rem;
     }
+
+    .container {
+        width: 85%;
+    }
 }
 
 /* Larger than phablet (also point when grid becomes active) */
@@ -57,6 +100,11 @@ body {
     body {
         padding-top: 4rem;
         text-align: left;
+    }
+
+    .container {
+        flex-direction: row;
+        width: 85%;
     }
 
     .text-holder {
@@ -74,11 +122,12 @@ body {
         font-size: 2.2rem;
     }
 
-    .container {
-        flex-direction: row;
+    .links {
+        margin-bottom: 0;
     }
 
     .photo {
+        margin-bottom: 0;
         max-height: 100%;
     }
 }
