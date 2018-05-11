@@ -6,10 +6,10 @@ This repository contains the source code for
 
 It contains a Gulp configuration to minify the CSS files. To run it, first
 install Node.js, then run `npm install`. Then you can run
-`./node_modules/.bin/gulp`, which will overwrite the file `style.min.css`.
+`npm run build`, which will overwrite the file `style.min.css`.
 
 To use browser-sync to watch for changes and update the browser on changes,
-run `./node_modules/.bin/gulp serve`.
+run `npm run serve`.
 
 License
 -------
