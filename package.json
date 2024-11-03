@@ -2,11 +2,11 @@
   "name": "adamgoforth-com",
   "description": "The website adamgoforth.com",
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-clean-css": "^3.10.0",
+    "browser-sync": "^3.0.3",
+    "gulp": "^5.0.0",
+    "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1"
   },
   "scripts": {
