@@ -2,7 +2,7 @@ adamgoforth.com
 ===============
 
 This repository contains the source code for
-[http://adamgoforth.com](http://adamgoforth.com).
+[https://adamgoforth.com](https://adamgoforth.com).
 
 It contains a Gulp configuration to minify the CSS files. To run it, first
 install Node.js, then run `npm install`. Then you can run
